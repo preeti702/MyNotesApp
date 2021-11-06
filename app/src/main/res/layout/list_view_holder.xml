@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_title"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="title"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_desc"
+            android:textColor="#8F000000"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:layout_below="@id/list_title"
+            android:text="title"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_date"
+            android:textSize="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#8F000000"
+            android:textStyle="italic"
+            android:text="title"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
